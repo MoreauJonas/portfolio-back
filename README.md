@@ -112,80 +112,76 @@ and follow the inscructions there.
     1.  **DELETE** /projects/**[*id*]**
     </details>
 
-- <details>
   - ### skills info:
 
-1.  <details><summary><b>GET</b> /skills/<b></summary>
-    "id":<br>
-    "skills name":<br>
-    "picture":<br>
-    "profil_id":<br>
+    1.  <details><summary><b>GET</b> /skills/<b></summary>
+        "id":<br>
+        "skills name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary>
+        "id":<br>
+        "skills name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  <details><summary><b>POST</b> /skills/<b></summary>
+        "skills name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
+        "id":<br>
+        "skills name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  **DELETE** /skills/**[*id*]**
+
+    - ### languages:
+
+    1.  <details><summary><b>GET</b> /languages/<b>[<i>id</i>]</b>/skills:</summary> 
+        "id":<br>
+        "skills name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/languages:</summary> 
+        "id":<br>
+        "languages name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  <details><summary><b>POST</b> /languages/<b></summary> 
+        "languages name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
+        "id":<br>
+        "languages name":<br>
+        "picture":<br>
+        "profil_id":<br>
+        </details>
+
+    1.  **DELETE** /languages/**[*id*]**
+
     </details>
-
-1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary>
-    "id":<br>
-    "skills name":<br>
-    "picture":<br>
-    "profil_id":<br>
-    </details>
-
-1.  <details><summary><b>POST</b> /skills/<b></summary>
-    "skills name":<br>
-    "picture":<br>
-    "profil_id":<br>
-    </details>
-
-1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
-    "id":<br>
-    "skills name":<br>
-    "picture":<br>
-    "profil_id":<br>
-    </details>
-
-1.  **DELETE** /skills/**[*id*]**
-</details>
-
-- <details>
-- ### languages:
-
-  1.  <details><summary><b>GET</b> /languages/<b>[<i>id</i>]</b>/skills:</summary> 
-      "id":<br>
-      "skills name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
-
-  1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/languages:</summary> 
-      "id":<br>
-      "languages name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
-
-  1.  <details><summary><b>POST</b> /languages/<b></summary> 
-      "languages name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
-
-  1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
-      "id":<br>
-      "languages name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
-
-  1.  **DELETE** /languages/**[*id*]**
-  </details>
-    </details>
-  </details>
 
 ---
 
 - <details>
   <summary><b>CATEGORY ROUTES</b></summary>
 
-  - ### projects info:
+  - ### categories info:
 
     1.  <details><summary><b>GET</b> /categories:</summary>
         "id":<br>
@@ -213,7 +209,7 @@ and follow the inscructions there.
 - <details>
   <summary><b>FORMATIONS ROUTES</b></summary>
 
-  - ### projects info:
+  - ### Formations info:
 
     1.  <details><summary><b>GET</b> /formations:</summary>
         "id":<br>
@@ -257,7 +253,7 @@ and follow the inscructions there.
 - <details>
   <summary><b>SKILLS ROUTES</b></summary>
 
-  - ### projects info:
+  - ### skills info:
 
     1.  <details><summary><b>GET</b> /skills:</summary>
         "id":<br>
@@ -294,7 +290,7 @@ and follow the inscructions there.
 - <details>
   <summary><b>LANGUAGES ROUTES</b></summary>
 
-  - ### projects info:
+  - ### Languages info:
 
     1.  <details><summary><b>GET</b> /languages:</summary>
         "id":<br>
@@ -331,7 +327,7 @@ and follow the inscructions there.
 - <details>
   <summary><b>PROFIL ROUTES</b></summary>
 
-  - ### projects info:
+  - ### Profil info:
 
     1.  <details><summary><b>GET</b> /profil:</summary>
         "id":<br>
@@ -400,7 +396,7 @@ and follow the inscructions there.
 - <details>
   <summary><b>USER ROUTES</b></summary>
 
-  - ### projects info:
+  - ### User info:
 
     1.  <details><summary><b>GET</b> /user:</summary>
         "id":<br>
