@@ -112,6 +112,7 @@ and follow the inscructions there.
     1.  **DELETE** /projects/**[*id*]**
     </details>
 
+- <details>
   - ### skills info:
 
 1.  <details><summary><b>GET</b> /skills/<b></summary>
@@ -142,7 +143,9 @@ and follow the inscructions there.
     </details>
 
 1.  **DELETE** /skills/**[*id*]**
+</details>
 
+- <details>
 - ### languages:
 
   1.  <details><summary><b>GET</b> /languages/<b>[<i>id</i>]</b>/skills:</summary> 
@@ -173,6 +176,7 @@ and follow the inscructions there.
       </details>
 
   1.  **DELETE** /languages/**[*id*]**
+  </details>
     </details>
   </details>
 
