@@ -25,6 +25,7 @@ MySQL : https://dev.mysql.com/downloads/mysql/
 blank = DBModel.sql,
 sample data =  DB.sql
 ```
+![image](https://user-images.githubusercontent.com/102809203/200012561-e9f2a582-9e41-4fc6-92f8-abce9311cec0.png)
 
 `↳ CREATE DATABASE portfolio`
 
@@ -110,70 +111,68 @@ and follow the inscructions there.
         </details>
 
     1.  **DELETE** /projects/**[*id*]**
-    </details>
 
-  - ### skills info:
+    - ### skills info:
 
-    1.  <details><summary><b>GET</b> /skills/<b></summary>
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>GET</b> /skills/<b></summary>
+          "id":<br>
+          "skills name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary>
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary>
+          "id":<br>
+          "skills name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  <details><summary><b>POST</b> /skills/<b></summary>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>POST</b> /skills/<b></summary>
+          "skills name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
+          "id":<br>
+          "skills name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  **DELETE** /skills/**[*id*]**
+      1.  **DELETE** /skills/**[*id*]**
 
     - ### languages:
 
-    1.  <details><summary><b>GET</b> /languages/<b>[<i>id</i>]</b>/skills:</summary> 
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>GET</b> /languages/<b>[<i>id</i>]</b>/skills:</summary> 
+          "id":<br>
+          "skills name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/languages:</summary> 
-        "id":<br>
-        "languages name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/languages:</summary> 
+          "id":<br>
+          "languages name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  <details><summary><b>POST</b> /languages/<b></summary> 
-        "languages name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>POST</b> /languages/<b></summary> 
+          "languages name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
-        "id":<br>
-        "languages name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+      1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
+          "id":<br>
+          "languages name":<br>
+          "picture":<br>
+          "profil_id":<br>
+          </details>
 
-    1.  **DELETE** /languages/**[*id*]**
-
+      1.  **DELETE** /languages/**[*id*]**
     </details>
 
 ---
