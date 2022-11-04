@@ -114,37 +114,37 @@ and follow the inscructions there.
 
 ---
 
-- ### skills:
+- ### skills info:
 
-  1.  <details><summary><b>GET</b> /skills/<b></summary> 
-      "id":<br>
-      "skills name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
+1.  <details><summary><b>GET</b> /skills/<b></summary>
+    "id":<br>
+    "skills name":<br>
+    "picture":<br>
+    "profil_id":<br>
+    </details>
 
-  1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary> 
-      "id":<br>
-      "skills name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
+1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary>
+    "id":<br>
+    "skills name":<br>
+    "picture":<br>
+    "profil_id":<br>
+    </details>
 
-  1.  <details><summary><b>POST</b> /skills/<b></summary> 
-      "skills name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
+1.  <details><summary><b>POST</b> /skills/<b></summary>
+    "skills name":<br>
+    "picture":<br>
+    "profil_id":<br>
+    </details>
 
-  1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
-      "id":<br>
-      "skills name":<br>
-      "picture":<br>
-      "profil_id":<br>
-      </details>
+1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
+    "id":<br>
+    "skills name":<br>
+    "picture":<br>
+    "profil_id":<br>
+    </details>
 
-  1.  **DELETE** /skills/**[*id*]**
-      </details>
+1.  **DELETE** /skills/**[*id*]**
+    </details>
 
 ---
 
