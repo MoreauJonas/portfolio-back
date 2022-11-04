@@ -64,7 +64,7 @@ and follow the inscructions there.
         "deploy_url":<br>
         </details>
 
-    1.  <b>GET</b> one /projects/**[*id*]**
+    1.  <details><summary><b>GET</b> one /projects/**[*id*]**</summary>
 
         "id":<br>
         "category":<br>
@@ -110,68 +110,77 @@ and follow the inscructions there.
         </details>
 
     1.  **DELETE** /projects/**[*id*]**
+    </details>
 
-  - ### skills:
+---
 
-    1.  <details><summary><b>GET</b> /skills/<b></summary> 
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+- ### skills:
 
-    1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary> 
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+  1.  <details><summary><b>GET</b> /skills/<b></summary> 
+      "id":<br>
+      "skills name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
 
-    1.  <details><summary><b>POST</b> /skills/<b></summary> 
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+  1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/skills:</summary> 
+      "id":<br>
+      "skills name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
 
-    1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+  1.  <details><summary><b>POST</b> /skills/<b></summary> 
+      "skills name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
 
-    1.  **DELETE** /skills/**[*id*]**
+  1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
+      "id":<br>
+      "skills name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
 
-  - ### languages:
+  1.  **DELETE** /skills/**[*id*]**
+      </details>
 
-    1.  <details><summary><b>GET</b> /languages/<b>[<i>id</i>]</b>/skills:</summary> 
-        "id":<br>
-        "skills name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+---
 
-    1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/languages:</summary> 
-        "id":<br>
-        "languages name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+- ### languages:
 
-    1.  <details><summary><b>POST</b> /languages/<b></summary> 
-        "languages name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+  1.  <details><summary><b>GET</b> /languages/<b>[<i>id</i>]</b>/skills:</summary> 
+      "id":<br>
+      "skills name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
 
-    1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
-        "id":<br>
-        "languages name":<br>
-        "picture":<br>
-        "profil_id":<br>
-        </details>
+  1.  <details><summary><b>GET</b> /projects/<b>[<i>id</i>]</b>/languages:</summary> 
+      "id":<br>
+      "languages name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
 
-    1.  **DELETE** /languages/**[*id*]**
+  1.  <details><summary><b>POST</b> /languages/<b></summary> 
+      "languages name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
+
+  1.  <details><summary><b>PUT</b> /projects/<b>[<i>id</i>]</b>:</summary>
+      "id":<br>
+      "languages name":<br>
+      "picture":<br>
+      "profil_id":<br>
+      </details>
+
+  1.  **DELETE** /languages/**[*id*]**
+  </details>
+
+---
 
 - <details>
   <summary><b>CATEGORY ROUTES</b></summary>
@@ -183,7 +192,7 @@ and follow the inscructions there.
         "name":<br>
         </details>
 
-    1.  <b>GET</b> one /categories/**[*id*]**
+    1.  <details><summary><b>GET</b> one /categories/**[*id*]**</summary>
         "id":<br>
         "name":<br>
         </details>
@@ -197,6 +206,9 @@ and follow the inscructions there.
         "name":<br>
 
     1.  **DELETE** /category/**[*id*]**
+    </details>
+
+---
 
 - <details>
   <summary><b>FORMATIONS ROUTES</b></summary>
@@ -212,7 +224,7 @@ and follow the inscructions there.
         "profil_id":<br>
         </details>
 
-    1.  <b>GET</b> one /formations/**[*id*]**
+    1.  <details><summary><b>GET</b> one /formations/**[*id*]**</summary>
         "id":<br>
         "name":<br>
         "description":<br>
@@ -238,6 +250,9 @@ and follow the inscructions there.
         "profil_id":<br>
 
     1.  **DELETE** /formations/**[*id*]**
+    </details>
+
+---
 
 - <details>
   <summary><b>SKILLS ROUTES</b></summary>
@@ -251,7 +266,7 @@ and follow the inscructions there.
         "profil_id":<br>
         </details>
 
-    1.  <b>GET</b> one /skills/**[*id*]**
+    1.  <details><summary><b>GET</b> one /skills/**[*id*]**</summary>
         "id":<br>
         "name":<br>
         "picture":<br>
@@ -272,6 +287,9 @@ and follow the inscructions there.
         </details>
 
     1.  **DELETE** /skills/**[*id*]**
+    </details>
+
+---
 
 - <details>
   <summary><b>LANGUAGES ROUTES</b></summary>
@@ -285,7 +303,7 @@ and follow the inscructions there.
         "profil_id":<br>
         </details>
 
-    1.  <b>GET</b> one /languages/**[*id*]**
+    1.  <details><summary><b>GET</b> one /languages/**[*id*]**</summary>
         "id":<br>
         "name":<br>
         "picture":<br>
@@ -306,6 +324,9 @@ and follow the inscructions there.
         </details>
 
     1.  **DELETE** /languages/**[*id*]**
+    </details>
+
+---
 
 - <details>
   <summary><b>PROFIL ROUTES</b></summary>
@@ -332,7 +353,7 @@ and follow the inscructions there.
         "skills":<br>
         </details>
 
-    1.  <b>GET</b> one /profil/**[*id*]**
+    1.  <details><summary><b>GET</b> one /profil/**[*id*]**</summary>
         "id":<br>
         "name":<br>
         "fristname":<br>
@@ -353,24 +374,28 @@ and follow the inscructions there.
         </details>
 
     1.  <details><summary><b>PUT</b> /profil/<b>[<i>id</i>]</b>:</summary>
-        "id":<br>
-        "name":<br>
-        "fristname":<br>
-        "picture":<br>
-        "mail":<br>
-        "tel":<br>
-        "adresse":<br>
-        "ville":<br>
-        "CP":<br>
-        "age":<br>
-        "description":<br>
-        "git":<br>
-        "linkedin":<br>
-        "languages":<br>
-        "formations":<br>
-        "projects":<br>
-        "skills":<br>
+                "id":<br>
+                "name":<br>
+                "fristname":<br>
+                "picture":<br>
+                "mail":<br>
+                "tel":<br>
+                "adresse":<br>
+                "ville":<br>
+                "CP":<br>
+                "age":<br>
+                "description":<br>
+                "git":<br>
+                "linkedin":<br>
+                "languages":<br>
+                "formations":<br>
+                "projects":<br>
+                "skills":<br>
+                </details>
+            </details>
         </details>
+
+---
 
 - <details>
   <summary><b>USER ROUTES</b></summary>
@@ -383,7 +408,7 @@ and follow the inscructions there.
         "password":<br>
         </details>
 
-    1.  <b>GET</b> one /user/**[*id*]**
+    1.  <details><summary><b>GET</b> one /user/**[*id*]**</summary>
         "id":<br>
         "mail":<br>
         "password":<br>
@@ -401,3 +426,6 @@ and follow the inscructions there.
         </details>
 
     1.  **DELETE** /user/**[*id*]**
+    </details>
+
+---
