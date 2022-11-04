@@ -142,7 +142,6 @@ and follow the inscructions there.
     </details>
 
 1.  **DELETE** /skills/**[*id*]**
-    </details>
 
 - ### languages:
 
@@ -174,6 +173,7 @@ and follow the inscructions there.
       </details>
 
   1.  **DELETE** /languages/**[*id*]**
+    </details>
   </details>
 
 ---
