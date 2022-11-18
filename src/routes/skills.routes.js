@@ -18,7 +18,7 @@ const upload = multer({ dest: "uploads/skills/" });
 router.get("/", async (req, res) => {
   try {
     const [skills] = await findAllSkill();
-    res.status(201).json([skills]);
+    res.status(201).json(skills);
   } catch (err) {
     return res.status(500).json({ message: err });
   }

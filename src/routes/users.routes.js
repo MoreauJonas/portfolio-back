@@ -25,7 +25,7 @@ const { generateJwt } = require("../utils/auth");
 router.get("/", checkJwt, async (req, res) => {
   try {
     const [users] = await findAllUsers();
-    res.status(201).json([users]);
+    res.status(201).json(users);
   } catch (err) {
     return res.status(500).json({ message: err });
   }

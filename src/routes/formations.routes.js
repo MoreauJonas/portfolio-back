@@ -18,7 +18,7 @@ const upload = multer({ dest: "uploads/formations/" });
 router.get("/", async (req, res) => {
   try {
     const [formations] = await findAllFormations();
-    res.status(201).json([formations]);
+    res.status(201).json(formations);
   } catch (err) {
     return res.status(500).json({ message: err });
   }

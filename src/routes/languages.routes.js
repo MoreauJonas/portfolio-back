@@ -18,7 +18,7 @@ const upload = multer({ dest: "uploads/languages/" });
 router.get("/", async (req, res) => {
   try {
     const [languages] = await findAllLanguages();
-    res.status(201).json([languages]);
+    res.status(201).json(languages);
   } catch (err) {
     return res.status(500).json({ message: err });
   }

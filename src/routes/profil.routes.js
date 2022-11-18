@@ -9,7 +9,7 @@ const upload = multer({ dest: "uploads/profil/" });
 router.get("/", async (req, res) => {
   try {
     const [profil] = await findAllProfil();
-    res.status(201).json([profil]);
+    res.status(201).json(profil);
   } catch (err) {
     return res.status(500).json({ message: err });
   }
